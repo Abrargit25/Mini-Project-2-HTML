@@ -1,0 +1,332 @@
+<!-- 2. Set up the complete structure of an HTML5 document with the `<!DOCTYPE html>`
+declaration, `<html>`, `<head>`, and `<body>` tags.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Include a descriptive title for the web page within the `<head>` section. -->
+
+    <title>ASDC</title>
+  
+    <style>
+        table,th,tr,td {     
+         border: 1px solid black; 
+         }
+         td{
+          text-align: center;
+         }
+       </style>
+  
+</head>
+
+<body>
+    <!-- Design a header section that includes your name or a fictional company name as the logo
+    using the `<h1>` element. -->
+    
+    <div>
+        <h1><img src="./images/ASDC logo.png" alt="logo" width="150px" height="100px"> &nbsp;<u>ADVANCED SKILLS DEVELOPEMENT
+                CENTER</u></h1>
+    </div>
+    <br>
+     <hr>
+     <!-- **Task 2: Header and Navigation** -->
+
+
+    <header>
+
+        <!-- 5. Create a navigation menu using an ordered list (`<ol>`) with several list items (`<li>`)
+            representing different sections of your webpage. -->
+        <nav>
+            <ol>
+                <li><a href="Home">Home</a></li>
+                <br>
+                <li><a href="AboutUS">About Us</a></li>
+                <br>
+                <li><a href="CoursesOffered">Courses Offered</a></li>
+                <br>
+                <li><a href="registartions">Registrations</a></li>
+                <br>
+                <li><a href="Gallery">Gallery</a></li>
+                <br>
+                <li><a href="ContactUs">Contact US</a></li>
+            </ol>
+        </nav>
+    </header>
+    <br>
+    <hr>
+
+    <!-- **Task 3: Hero Section with Image** -->
+
+<!--
+    6. Design a hero section that spans the entire viewport height and features a image using inline
+    `style` attributes. -->
+    
+
+    <spam class="hero-image" style="width: 100%;">
+
+        <img src="./images/asdc2.png" alt="hero-image" width="1500px" height="550px">
+        </span>
+        <br>
+      
+        <!-- 7. Include a heading (`<h2>`) with a catchy tagline about your webpage's theme. -->
+
+
+        <h2>COURSES OFFERED Free Training for Skills Based Courses</h2>
+        <hr>
+        <br>
+
+        <!-- **Task 4: Main Content Section** -->
+
+        <!-- 8. Create a main content section with three sub-sections:
+          - Use the `<section>` element for each sub-section. -->
+
+            <!-- - In the first sub-section, include a heading (`<h2>`) and a paragraph (`<p>`) about a
+                significant aspect of your webpage's theme. -->
+                
+
+        <section class="Section 1">
+            <h3><u>AboutUS</u></h3>
+            <fieldset>
+                <P> OUR MISSION
+                    <br>
+                    To Educate the Human Potential
+                    <br>
+
+                    Advance Skills Development Center (ASDC) is formed to help the students who could not continue their
+                    education with the required skills necessary for employment.
+                    ASDC will be affiliated with Department of Intermediate Education for the certification of these
+                    courses.
+                    The Department of Intermediate Education has introduced Short Term Vocational Certificate Courses
+                    with duration of 3 months, 6 months and 9 months to enable SSC failed and passed students who wish
+                    to join and earn their livelihood in a short span of time.
+                    The evaluation and certification of Short Term Vocational Certificate Courses are done by the State
+                    Institute of Vocational Education (SIVE) in the Commissionerate of Intermediate Education, Telangana
+                    State.
+                </P>
+            </fieldset>
+        </section>
+        <br>
+        <hr>
+
+        <!-- - In the second sub-section, create an unordered list (`<ul>`) with at least five interesting facts
+            related to your theme. -->
+            
+
+        <section class="section 2">
+            <h3>SPONSORED BY:</h3>
+            <ul>
+                <li>SPONSORED BY SEED-Support for Education and Economic Development</li>
+                <br>
+                <li>SEED-Support for Education and Economic Development; is a USA based Charity Organization formed
+                    solely to help improve the quality of life for the under-privileged in India by providing the best
+                    Educational and Economical opportunities.
+                    Elevate the quality of their lives by providing optimum Medical Care, Quality Education & Hands-on
+                    Technical Skills trainings, and providing other prospects to improve the literacy status.</li>
+                <br>
+                <li>SEED respects all aid recipients and believes in ‘Charity with Dignity’. All beneficiaries are
+                    treated with respect and maintains self-esteem they deserve.</li>
+                <br>
+                <li>SEED believes in and adheres to Honesty, Integrity & Accountability as their core values. Education
+                    is the key to success which in turns reduces the effects of poverty and the economic burden on the
+                    families.</li>
+                <br>
+                <li>SEED is committed to providing modern education by creating the environment in which the
+                    beneficiaries can grow with quality educational and technical skills to succeed in life. Aim is to
+                    develop the individuals into self-confident, hardworking, successful law abiding community members
+                    regardless of race, religion and gender.</li>
+            </ul>
+
+        </section>
+       <hr>
+
+       <!-- - In the third sub-section, embed an image (`<img>`) or diagram that complements the
+        content. -->
+
+        <section class="Section 3">
+
+
+            <img src="./images/Asdc_Cover_Image.png" alt="Asdc_Cover_Image" width="1500px" height="850">
+
+        </section>
+        <br>
+        <hr>
+        <br>
+
+        <!-- **Task 5: Forms and User Interaction** -->
+          
+        <!-- - Create a form (`<form>`) for users to provide feedback or subscribe to updates. -->
+            
+            <!-- - Include text inputs, radio buttons, checkboxes, and a text area to gather information. -->
+
+
+        <section class="registartions">
+            <h3><u>Registrations from:</u></h3>
+
+            <fieldset style="width: 50%;">
+
+                <h1>Feedback and Registration Form</h1>
+
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label>Gender:</label><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br><br>
+
+                    <label>Courses:</label><br>
+                    <input type="checkbox" id="course2" name="courses[]" value="course2">
+                    <label for="course2">Full Stack</label><br>
+                    <input type="checkbox" id="course3" name="courses[]" value="course3">
+                    <label for="course3">Digital Marketing</label><br>
+                    <input type="checkbox" id="course4" name="courses[]" value="course4">
+                    <label for="course4">Accounting</label><br>
+                    <input type="checkbox" id="course6" name="courses[]" value="course6">
+                    <label for="course6">Mobile App Development</label><br><br>
+
+                    <!-- - Implement a submit button (`<input type="submit">`) to process the form. -->
+                    <input type="submit" value="Submit">
+                </form>
+
+                <Hr>
+
+                <h3>Feedback</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="regNo">Registration Number:</label>
+                    <input type="text" id="regNo" name="regNo" required><br><br>
+
+                    <label for="name">Batch Name</label>
+
+                    <select id="batch" name="batch">
+                        <option value="batch1">Full stack</option>
+                        <option value="batch2">Digital Marketing</option>
+                        <option value="batch3">Accounting</option>
+                        <option value="batch3">Mobile App Development</option>
+
+                    </select><br><br>
+
+                    <label for="comment">Comment:</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+
+            </fieldset>
+        </section>
+          <hr>
+          <br>
+
+
+          <!-- **Task 6: Tables and Data Presentation** -->
+
+               <!-- 10. Utilize a table (`<table>`) to present tabular data, such as a comparison between two or
+                    more products, services, or concepts. -->
+
+        <h3><u>table</u></h3>
+
+        
+<table>
+    <tr>
+        <th>Course</th>
+        <th>ASDC </th>
+        <th>Outside ASDC </th>
+    </tr>
+    <tr>
+        <td>Full Stack</td>
+        <td>No Cost</td>
+        <td>40,000</td>
+    </tr>
+    <tr>
+        <td>Accounting</td>
+        <td>No Cost</td>
+        <td>25,000</td>
+    </tr>
+    <tr>
+        <td>Digital Marketing</td>
+        <td>No Cost</td>
+        <td>20,000</td>
+    </tr>
+    <tr>
+        <td>Mobile App Development</td>
+        <td>No Cost</td>
+        <td>25,000</td>
+    </tr>
+    
+</table>
+   <hr>
+   <br>
+<!-- 
+   14. Embed multimedia and interactive elements like videos, audio clips, or Google Maps using
+     appropriate HTML tags. -->
+
+   <h3><U>Gallery</U></h3>
+
+
+   <h4><U>Lab Images:</U></h4>
+
+   <img src="/images/lab.jpg" alt="lab" width="200px" height="200px"> &nbsp;
+
+   <img src="/images/classroom.jpeg" alt="lab" width="400px" height="200px"> &nbsp;
+   <img src="/images/lab2.jpg" alt="lab" width="200px" height="200px">
+   <br>
+
+   <h4><U>video</U></h4>
+
+   
+<video width="640" height="360" controls>
+    <source src="" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+
+
+      <!-- **Task 7: Footer and Contact Information**  -->
+
+      <!-- 11. Design a footer that includes contact information, social media links, and copyright details
+           using appropriate HTML elements. -->
+
+<h3><U>ContactUs</U></h3>
+<div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=1st Floor, above LEE Chinese Restaurant, Syed Ali Chabutra, Shalibanda, Hyderabad, Telangana 500065&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://gachanymph.com/">Gacha Nymph APK</a></div><style>.mapouter{position:relative;text-align:right;width:600px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:600px;height:400px;}.gmap_iframe {width:600px!important;height:400px!important;}</style></div>
+    <div class="contact-details">
+        <h4><U>Address:</U></h4>
+        <p>1st Floor, Above LEE Chinese Restaurant, Shah Ali Banda Road, Hyderabad.</p>
+
+        <h4><U>Phone Number:</U></h4>
+        <p><a href="mailto">+91 9876543210</a></p>
+        
+        <h4><U>Email ID:</U></h4>
+        <p><a href="mailto:asdc@example.com">asdc@example.com</a></p>
+    </div>
+</div>
+
+   
+       
+    <fieldset style="height: 30px;">  
+    <footer>
+       <p>&copy; 2023 ASDC. All rights reserved.</p>
+     </footer>
+    </fieldset>
+    
+
+      
+
+
+
+
+</body>
+
+</html>
